@@ -1,0 +1,14 @@
+.MuiCardContent-root {
+  display: flex;
+  flex-direction: column;
+}
+.MuiPaper-root {
+  display: flex;
+}
+.graph--flex {
+  display: flex;
+  flex-grow: 1;
+}
+.chartjs-render-monitor {
+  height: auto;
+}

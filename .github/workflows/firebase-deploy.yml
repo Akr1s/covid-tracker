@@ -9,7 +9,7 @@ jobs:
         runs-on: ubuntu-latest
         strategy:
             matrix:
-                node-version: 16
+                node-version: [16.x]
         steps:
             - name: get latest version of code
               uses: actions/checkout@v3

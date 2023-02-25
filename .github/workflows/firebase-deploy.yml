@@ -9,9 +9,10 @@ jobs:
         runs-on: ubuntu-latest
         strategy:
             matrix:
-                node-version: [16.x]
+                node-version: 16
         steps:
-            - uses: actions/checkout@v3
+            - name: get latest version of code
+              uses: actions/checkout@v3
             - name: use Node.js version ${{ matrix.node-version }}
               uses: actions/setup-node@v3
               with:

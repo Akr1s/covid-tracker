@@ -4,4 +4,4 @@ Covid-19 tracker app
 
 # Online app [https://covid-traker-be873.web.app/]
 
-Now with github actions for build and deploy to Firebase automatically
+Now with github actions for linting, build and deploy to Firebase automatically

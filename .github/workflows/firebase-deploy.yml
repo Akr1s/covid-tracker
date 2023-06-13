@@ -17,6 +17,7 @@ jobs:
               uses: actions/setup-node@v3
               with:
                   node-version: ${{ matrix.node-version }}
+                  cache: 'npm'
             - run: npm ci
             - run: npm install -g firebase-tools
             - run: npm run build

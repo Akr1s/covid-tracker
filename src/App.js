@@ -27,8 +27,8 @@ function App() {
   useEffect(() => {
     const fetchCountries = async () => {
       try {
-        let response = await fetch("https://disease.sh/v3/covid-19/countries");
-        let data = await response.json();
+        const response = await fetch("https://disease.sh/v3/covid-19/countries");
+        const data = await response.json();
         const countries = data.map((country) => ({
           name: country.country,
           value: country.countryInfo.iso2,
